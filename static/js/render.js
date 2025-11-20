@@ -10,8 +10,12 @@ const fetchTemplate = (url, targetId) => {
 Promise.all([
     fetchTemplate("/templates/benefits.html", "benefits"),
     fetchTemplate("/templates/footer.html", "footer"),
-    fetchTemplate("/templates/nav.html", "nav")
-]).finally(() => {
-    // Oculta el loader cuando todo esté listo
+    fetchTemplate("/templates/nav.html", "nav"),
+    fetchTemplate("/templates/services.html", "services")
+]).then(() => {
+    const script = document.createElement("script");
+    script.src = "/static/js/script.js";
+    document.body.appendChild(script);
+}).finally(() => {
     loader.style.display = "none";
 });
