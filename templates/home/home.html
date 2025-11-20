@@ -1,21 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet">
-    <title>Kabay Group</title>
+
+    <!-- Flowbite CSS (versión 2.x) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet">
+
+    <!-- Phosphor Icons (icons para Flowbite) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <title>KabayGroup - Programamos tu negocio</title>
+
+    <!-- Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: "Inter", sans-serif; }
+
+        .hero-pattern {
+            background: radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.25) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(15, 23, 42, 0.35) 0%, transparent 60%);
+        }
+    </style>
 </head>
-<body>
+
+<body class="bg-white text-slate-900">
+
+    <!-- NAV -->
+    <div id="nav"></div>
+
+    <!-- HERO -->
+    <section class="w-full h-screen flex items-center">
+        <div class="w-full px-10 grid lg:grid-cols-2 gap-10 items-center h-full">
+
+            <div class="space-y-6 flex flex-col justify-center h-full">
+                <p class="text-3xl md:text-4xl font-light text-slate-800 leading-snug">
+                    We build <span class="text-orange-500 font-semibold">#Web3</span> products for<br>
+                    businesses to be
+                </p>
+
+                <h1 class="text-6xl md:text-7xl font-extrabold tracking-tight">
+                    Ejemplo 1
+                </h1>
+
+                <p class="text-lg text-slate-600 mt-3">
+                    Ejemplo 2
+                </p>
+
+                <a href="#beneficios"
+                   class="inline-flex items-center border border-slate-800 rounded-md px-5 py-3 font-medium text-slate-900 hover:bg-slate-900 hover:text-white transition">
+                    Find out how
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="flex justify-center items-center h-full w-full">
+                <img src="https://dummyimage.com/900x550/ffffff/0f172a&text=Placeholder"
+                     class="w-full max-w-3xl">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+  <div id="benefits"></div>
+
+    <!-- FOOTER -->
     <div id="footer"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+
+    <!-- Flowbite JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+    <!-- Carga dinámica -->
     <script>
-  fetch("/templates/footer.html")
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById("footer").innerHTML = data;
-    });
-</script>
+      fetch("/templates/benefits.html")
+            .then(res => res.text())
+            .then(html => document.getElementById("benefits").innerHTML = html);
+
+        fetch("/templates/footer.html")
+            .then(res => res.text())
+            .then(html => document.getElementById("footer").innerHTML = html);
+
+        fetch("/templates/nav.html")
+            .then(res => res.text())
+            .then(html => document.getElementById("nav").innerHTML = html);
+    </script>
+
 </body>
 </html>
