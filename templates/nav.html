@@ -1,33 +1,35 @@
-<body>
-<nav class="w-full bg-white shadow-sm fixed top-0 z-50">
-    <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+
+<nav class="fixed top-0 z-50 w-full bg-white shadow-sm">
+    <div class="flex items-center justify-between h-20 mx-auto max-w-7xl">
 
         <!-- LOGO + INICIO -->
         <div class="flex items-center space-x-3">
-            <img src="https://dummyimage.com/40x40/0f172a/fff&text=KG"
-                 class="w-10 h-10 rounded-full object-cover">
-            <span class="text-lg font-semibold text-slate-900">KabayGroup</span>
+           <a href="http://127.0.0.1:5500/templates/home/home.html"><img src="https://dummyimage.com/40x40/0f172a/fff&text=KG"
+                 class="object-cover w-10 h-10 rounded-full"></a>
+            <span class="text-lg font-semibold text-slate-900"><a href="http://127.0.0.1:5500/templates/home/home.html">KabayGroup</a></span>
         </div>
 
         <!-- ICONOS + TELÉFONO + BOTONES -->
-        <div class="hidden md:flex items-center space-x-6">
+        <div class="items-center hidden space-x-6 md:flex">
 
             <!-- TELÉFONO -->
             <div class="flex items-center space-x-2">
-             <i class="ph ph-phone text-gray-800 text-2xl"></i>
+             <i class="text-2xl text-gray-800 ph ph-phone"></i>
 
 
-                <span class="text-slate-700 font-medium">+1 809-672-7557</span>
+                <a href="https://wa.me/18096727557?text=hola
+"><span class="font-medium text-slate-700">+1 809-672-7557</span></a>
             </div>
 
             <!-- BOTÓN INICIAR SESIÓN -->
-            <button class="px-5 py-2 rounded-lg border border-gray-300 text-slate-700 hover:bg-gray-100 transition">
-                Iniciar sesión
+            <button class="px-5 py-2 transition border border-gray-300 rounded-lg text-slate-700 hover:bg-gray-100">
+                <a href="https://kabay.site/web/login">Iniciar sesión</a>
             </button>
 
             <!-- BOTÓN CONTÁCTENOS -->
-            <button class="px-6 py-2 rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition">
-                Contáctenos
+            <button class="px-6 py-2 text-white transition bg-blue-600 rounded-lg hover:bg-blue-700">
+                <a href="http://127.0.0.1:5500/templates/home/contact_form.html">Contáctenos</a>
+                
             </button>
         </div>
 
@@ -41,5 +43,3 @@
 
     </div>
 </nav>
-   
-</body>
