@@ -42,7 +42,12 @@
     100% {
         transform: rotate(360deg);
     }
-    } 
+    }
+    html {
+  scroll-behavior: smooth;
+}
+
+    
     </style>
 </head>
 
@@ -88,6 +93,7 @@
             </div>
         </div>
     </section>
+    
 
     <!-- BENEFICIOS -->
   <div id="benefits"></div>
@@ -99,7 +105,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
     <!-- Carga dinámica -->
-     <script src="/static/js/render.js"></script>
+    <script src="/static/js/render_templates.js"></script>
+    <script type="module" src="../../../../static/js/renderSistems.js"></script>
 
 </body>
 </html>
