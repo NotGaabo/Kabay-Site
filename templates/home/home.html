@@ -42,7 +42,12 @@
     100% {
         transform: rotate(360deg);
     }
-    } 
+    }
+    html {
+  scroll-behavior: smooth;
+}
+
+    
     </style>
 </head>
 
@@ -73,7 +78,7 @@
                 </p>
 
                 <a href="#beneficios"
-   class="w-max inline-flex items-center px-5 py-2 font-medium transition border rounded-md border-slate-800 text-slate-900 hover:bg-slate-900 hover:text-white mx-auto md:mx-0">
+   class="inline-flex items-center px-5 py-2 mx-auto font-medium transition border rounded-md w-max border-slate-800 text-slate-900 hover:bg-slate-900 hover:text-white md:mx-0">
 
                     Find out how
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -89,6 +94,7 @@
             </div>
         </div>
     </section>
+    
 
     <div id="services"></div>
 
@@ -102,7 +108,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
     <!-- Carga dinámica -->
-     <script src="/static/js/render.js"></script>
-    
+    <script src="/static/js/render_templates.js"></script>
+    <script type="module" src="../../../../static/js/renderSistems.js"></script>
 </body>
 </html>
