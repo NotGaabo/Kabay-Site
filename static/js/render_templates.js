@@ -11,7 +11,7 @@ Promise.all([
     fetchTemplate("/templates/benefits.html", "benefits"),
     fetchTemplate("/templates/footer.html", "footer"),
     fetchTemplate("/templates/nav.html", "nav"),
-    fetchTemplate("/templates/services.html", "services")
+    fetchTemplate("/templates/home/services/services.html", "services")
 ]).then(() => {
     const script = document.createElement("script");
     script.src = "/static/js/script.js";
