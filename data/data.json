@@ -1,0 +1,283 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Banderita",
+      "category": "Food Tech / Ordenamiento Digital",
+      "description": "Aplicación enfocada en la comodidad, velocidad y autonomía del cliente en parques de food trucks. Permite hacer pedidos y gestionar cuentas sin esperar al mesero mediante menús digitales interactivos por QR.",
+      "keyFeatures": [
+        "Menú digital por QR sin necesidad de levantar menú físico",
+        "Pedidos en uno o varios food trucks",
+        "Los pedidos llegan en tiempo real a cocina vía mesero",
+        "Solicitud de cuenta digital y pago desde el celular",
+        "Sistema centralizado de pedidos por local",
+        "Estadísticas y reportes de consumo"
+      ],
+      "benefits": {
+        "forClients": [
+          "Mayor comodidad y control de su experiencia",
+          "Reducción de esperas y errores en pedidos"
+        ],
+        "forBusinesses": [
+          "Más pedidos en menos tiempo",
+          "Aumentó en el ticket promedio",
+          "Reducción de errores y optimización del personal"
+        ],
+        "forAdministrators": [
+          "Sistema centralizado de pedidos por local",
+          "Estadísticas y reportes de consumo",
+          "Mejora de la experiencia general del parque"
+        ]
+      },
+      "targetAudience": [
+        "Clientes que quieren ordenar rápido sin esperar meseros",
+        "Food trucks que quieren automatizar pedidos y aumentar ventas",
+        "Administradores de parques que necesitan un sistema centralizado y moderno"
+      ],
+      "contact": {
+        "email": "info@kabaygroup.com",
+        "phone": "809-672-7557"
+      },
+      "tagline": "Ordena fácil, come feliz.",
+      "highlights": [
+        "Menos filas, más ventas",
+        "Más control para el cliente",
+        "Mejora la experiencia sin instalar apps",
+        "Optimiza el trabajo del personal"
+      ],
+      "imgs": [
+        "/static/images/project1.1.png",
+        "/static/images/project1.2.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Medicbay",
+      "category": "Health Tech / Sistema Médico",
+      "description": "Sistema médico diseñado especialmente para doctores que permite llevar un control completo del historial médico del paciente de forma segura, digital y eficiente.",
+      "keyFeatures": [
+        "Gestión de citas",
+        "Historia clínica electrónica",
+        "Resultados y solicitudes de análisis",
+        "Control nutricional",
+        "Prescripción médica electrónica",
+        "Expediente clínico del paciente",
+        "Facturación y cobros",
+        "Reportes y estadísticas"
+      ],
+      "benefits": {
+        "keyClinicalBenefits": [
+          "Gestión de citas",
+          "Mejora en la toma de decisiones médicas",
+          "Seguimiento más efectivo",
+          "Control financiero y facturación",
+          "Prescripciones seguras y profesionales",
+          "Mayor seguridad de la información",
+          "Acceso desde cualquier lugar",
+          "Mejor organización clínica",
+          "Ahorras tiempo, todo organizado en un solo lugar"
+        ],
+        "specialFeatures": [
+          "Reporte de referimientos y otras evaluaciones - Permite mantener un control sobre las evaluaciones y referimientos incluyendo la posibilidad de adjuntar imágenes y pdf",
+          "Resultado de analíticas - Permite mantener un control sobre las analíticas realizadas por el pediatra y adjuntar imágenes y pdf para un mayor seguimiento"
+        ]
+      },
+      "targetAudience": [
+        "Médicos generales que buscan eficiencia y seguridad en la gestión de pacientes",
+        "Consultorios privados y clínicas pequeñas o medianas",
+        "Especialistas que buscan  orden y seguridad en la gestión de sus pacientes"
+      ],
+      "contact": {
+        "email": "info@kabaygroup.com",
+        "phone": "809-672-7557"
+      },
+      "tagline": "Gestiona tus pacientes de forma segura",
+      "systemType": "Sistema de gestión de pacientes",
+      "highlights": [
+        "Historia clínica 100% digital y segura",
+        "Prescripción electrónica profesional",
+        "Facturación y cobros integrados",
+        "Reportes y estadísticas en tiempo real"
+      ],
+      "imgs": [
+        "/static/images/project2.1.png",
+        "/static/images/project2.2.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "App de Gestión Escolar",
+      "category": "Education Tech / Gestión Administrativa",
+      "description": "Aplicación diseñada para la automatización y gestión administrativa, académica y financiera de colegios, escuelas y academias. Centraliza todas las operaciones clave en una sola plataforma.",
+      "keyFeatures": [
+        "Gestión y Recordatorios de pago - Notifica sobre vencimientos y montos pendientes",
+        "Inscripción online - Inscribe de forma rápida y segura",
+        "Asignación de clases para profesores - Organiza horarios, grupos y clases por maestro",
+        "Pase de lista digital - Registra asistencias por día, curso o grupo",
+        "Expediente digital del estudiante - Historial completo de pagos, asistencias y materias cursadas",
+        "Gestión de inventario - Poloches, útiles, etc"
+      ],
+      "benefits": {
+        "main": [
+          "Ahorro de tiempo y reducción de errores administrativos",
+          "Mejor comunicación con padres y docentes",
+          "Control total del flujo financiero",
+          "Datos y reportes en tiempo real",
+          "Accesible desde cualquier dispositivo"
+        ]
+      },
+      "targetAudience": [
+        "Colegios privados",
+        "Escuelas técnicas",
+        "Academias de arte, música o idiomas",
+        "Centros de formación continua",
+        "Directores y administradores educativos que buscan modernizar procesos"
+      ],
+      "contact": {
+        "email": "info@kabaygroup.com",
+        "phone": "809-672-7557"
+      },
+      "tagline": "App de Gestión y Facturación de Estudiantes",
+      "extras": {
+        "socialMediaManagement": "Mejora como te ven en las redes sociales y aumenta tu cartera de estudiantes"
+      },
+      "customization": "Adquiere tu aplicación personalizada, logrando suplir todas las necesidades de tu empresa",
+      "highlights": [
+        "Inscripciones y pagos 100% online",
+        "Control total de matrícula y finanzas",
+        "Pase de lista digital desde el celular",
+        "Expediente completo del estudiante en un clic",
+        "Notificaciones automáticas a padres",
+        "Totalmente personalizable a tu institución"
+      ],
+      "imgs": [
+        "/static/images/project3.1.jpg",
+        "/static/images/project3.2.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Escolar Go",
+      "category": "Education Tech / Transporte Escolar",
+      "description": "Es una plataforma digital diseñada para gestionar y supervisar el transporte escolar de forma segura, eficiente y en tiempo real. Su propósito es conectar a colegios, padres y choferes mediante tecnología, mejorando la comunicación, la puntualidad y la tranquilidad de todos los involucrados.",
+      "keyFeatures": [
+        "Gestión y administración de rutas, vehículos y personal",
+        "Garantizar la puntualidad y eficiencia del servicio",
+        "Facilita la comunicación entre el colegio, los conductores y los padres",
+        "Visualiza tu personal de transporte en tiempo real",
+        "Notifica y permite a los padres ver el transcurso de su viaje",
+        "Planea tu ruta de manera automática"
+      ],
+      "benefits": [
+        {
+          "icono": "location",
+          "texto": "Padres pueden ver dónde está el autobús y su hijo en tiempo real"
+        },
+        {
+          "icono": "phone-off",
+          "texto": "Menos llamadas, menos incertidumbre y más puntualidad"
+        },
+        {
+          "icono": "clipboard",
+          "texto": "Reportes diarios de asistencia y seguimiento sin esfuerzo"
+        },
+        {
+          "icono": "smartphone",
+          "texto": "Sin papeles ni listas manuales: todo desde el celular"
+        }
+      ],
+      "problemSolved": {
+        "intro": "Muchos colegios y padres enfrentan incertidumbre diaria sobre:",
+        "problems": [
+          "¿Ya pasó el autobús?",
+          "¿El niño subió o no?",
+          "¿Hubo algún retraso o incidente?",
+          "¿Cómo se comunica el colegio con el chofer o los padres en tiempo real?"
+        ]
+      },
+      "targetAudience": [
+        "Padres que desean tranquilidad y control sobre la seguridad del trayecto de sus hijos",
+        "Colegios que buscan una organización eficiente del transporte y mayor control operativo",
+        "Choferes que necesitan rutas claras y herramientas para comunicarse y registrar eventos",
+        "Administradores de flota escolar"
+      ],
+      "contact": {
+        "email": "info@kabaygroup.com",
+        "phone": "809-672-7557"
+      },
+      "tagline": "Tu aliado escolar, en la palma de tu mano",
+      "highlights": [
+        "Seguimiento GPS en tiempo real del autobús",
+        "Notificaciones automáticas a padres",
+        "Registro automático de subida y bajada",
+        "Comunicación directa colegio-chofer-padre"
+      ],
+      "imgs": [
+        "/static/images/project4.1.png",
+        "/static/images/project4.2.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pediatrik",
+      "category": "Health Tech / Sistema Pediátrico",
+      "description": "Es un sistema médico diseñado especialmente para pediatras. Permite llevar un control completo del historial médico del paciente infantil de forma segura, digital y eficiente. Es una herramienta para médicos que buscan eficiencia, orden y una mejor experiencia para sus pacientes.",
+      "keyFeatures": [
+        "Registro e información del paciente",
+        "Antecedentes familiares Patológicos, Hospitalarios, Alérgicos",
+        "Datos perinatales",
+        "Seguimiento de UCIN",
+        "Desarrollo Neurológico, psicológico y social",
+        "Tabla de crecimiento peso x edad",
+        "Tabla de crecimiento estatura x edad",
+        "Seguimiento de vacunas"
+      ],
+      "benefits": [
+        "Historia médica completa",
+        "Evaluaciones neurológicas, psicológicas y sociales",
+        "Tabla de crecimiento",
+        "Automática (Gráficas)",
+        "Agenda citas",
+        "Registro de vacunas",
+        "Control nutricional",
+        "Reportes y referimientos",
+        "Fecha biológica y corregida"
+      ],
+      "additionalModules": [
+        {
+          "nombre": "Reporte de Referimientos y Otras Evaluaciones",
+          "descripcion": "Permite mantener un control sobre las evaluaciones y referimientos incluyendo la posibilidad de adjuntar imágenes y pdf"
+        },
+        {
+          "nombre": "Resultado de Analíticas",
+          "descripcion": "Permite mantener un control sobre las analíticas realizadas por el pediatra y adjuntar imágenes y pdf para un mayor seguimiento"
+        }
+      ],
+      "contact": {
+        "email": "info@kabaygroup.com",
+        "phone": "809-672-7557"
+      },
+      "tagline": "Sistema de gestión pediátrica",
+      "targetAudience": [
+        "Pediatras y neonatólogos de consultorio privado",
+        "Clínicas pediátricas",
+        "Médicos que buscan un sistema especializado en el seguimiento del niño desde el nacimiento"
+      ],
+      "highlights": [
+        "Seguimiento completo de vacunas y desarrollo",
+        "Historia perinatal y UCIN detallada",
+        "Adjunta estudios, imágenes y referimientos",
+        "Diseñado exclusivamente por y para pediatras"
+      ],
+      "imgs": [
+        "/static/images/project5.1.jpg",
+        "/static/images/project5.2.jpg"
+      ]
+    }
+  ],
+  "company": {
+    "name": "Kabay Group",
+    "generalEmail": "info@kabaygroup.com",
+    "phone": "809-672-7557"
+  }
+}
